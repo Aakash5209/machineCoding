@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.elevatorContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+
+.elevatorShaft{
+    position: relative;
+    width: 100px;
+    height: 400px;
+    background-color: #c2e4e9;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.elevator{
+    position: absolute;
+    width: 60%;
+    height: 60px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    /* bottom: 40%; */
+
+
+}
